@@ -40,24 +40,19 @@
             this.lb_SoL = new System.Windows.Forms.Label();
             this.lb_TenH = new System.Windows.Forms.Label();
             this.lb_TenK = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.tb_DonG = new System.Windows.Forms.TextBox();
+            this.tb_TongT = new System.Windows.Forms.TextBox();
+            this.tb_TenK = new System.Windows.Forms.TextBox();
+            this.cb_TenH = new System.Windows.Forms.ComboBox();
+            this.nUD_SoL = new System.Windows.Forms.NumericUpDown();
             this.dtg_ThongKe = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_SoL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ThongKe)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,11 +91,11 @@
             this.tableLayoutPanel1.Controls.Add(this.lb_SoL, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.lb_TenH, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.lb_TenK, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox3, 1, 4);
-            this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 6);
-            this.tableLayoutPanel1.Controls.Add(this.textBox2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.comboBox1, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.numericUpDown1, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.tb_DonG, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.tb_TongT, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.tb_TenK, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.cb_TenH, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.nUD_SoL, 1, 3);
             this.tableLayoutPanel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -126,6 +121,7 @@
             this.bt_ThanhToan.TabIndex = 1;
             this.bt_ThanhToan.Text = "Thanh toán";
             this.bt_ThanhToan.UseVisualStyleBackColor = true;
+            this.bt_ThanhToan.Click += new System.EventHandler(this.bt_ThanhToan_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -159,6 +155,7 @@
             this.bt_Them.TabIndex = 0;
             this.bt_Them.Text = ">>";
             this.bt_Them.UseVisualStyleBackColor = true;
+            this.bt_Them.Click += new System.EventHandler(this.bt_Them_Click);
             // 
             // bt_Xoa
             // 
@@ -182,6 +179,7 @@
             this.bt_TaoHoaDon.TabIndex = 0;
             this.bt_TaoHoaDon.Text = "Tạo hóa đơn";
             this.bt_TaoHoaDon.UseVisualStyleBackColor = true;
+            this.bt_TaoHoaDon.Click += new System.EventHandler(this.bt_TaoHoaDon_Click);
             // 
             // lb_TongTien
             // 
@@ -242,58 +240,61 @@
             this.lb_TenK.TabIndex = 3;
             this.lb_TenK.Text = "Tên khách";
             // 
-            // textBox3
+            // tb_DonG
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tb_DonG.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(93, 303);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(265, 30);
-            this.textBox3.TabIndex = 10;
+            this.tb_DonG.Cursor = System.Windows.Forms.Cursors.No;
+            this.tb_DonG.Enabled = false;
+            this.tb_DonG.Location = new System.Drawing.Point(93, 303);
+            this.tb_DonG.Multiline = true;
+            this.tb_DonG.Name = "tb_DonG";
+            this.tb_DonG.ReadOnly = true;
+            this.tb_DonG.Size = new System.Drawing.Size(265, 30);
+            this.tb_DonG.TabIndex = 10;
+            this.tb_DonG.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox1
+            // tb_TongT
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tb_TongT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Cursor = System.Windows.Forms.Cursors.No;
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(93, 453);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(265, 27);
-            this.textBox1.TabIndex = 8;
+            this.tb_TongT.Cursor = System.Windows.Forms.Cursors.No;
+            this.tb_TongT.Enabled = false;
+            this.tb_TongT.Location = new System.Drawing.Point(93, 453);
+            this.tb_TongT.Multiline = true;
+            this.tb_TongT.Name = "tb_TongT";
+            this.tb_TongT.ReadOnly = true;
+            this.tb_TongT.Size = new System.Drawing.Size(265, 27);
+            this.tb_TongT.TabIndex = 8;
+            this.tb_TongT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox2
+            // tb_TenK
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tb_TenK.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(93, 78);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(265, 30);
-            this.textBox2.TabIndex = 9;
+            this.tb_TenK.Location = new System.Drawing.Point(93, 78);
+            this.tb_TenK.Multiline = true;
+            this.tb_TenK.Name = "tb_TenK";
+            this.tb_TenK.Size = new System.Drawing.Size(265, 30);
+            this.tb_TenK.TabIndex = 9;
             // 
-            // comboBox1
+            // cb_TenH
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cb_TenH.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(93, 153);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(265, 24);
-            this.comboBox1.TabIndex = 11;
+            this.cb_TenH.FormattingEnabled = true;
+            this.cb_TenH.Location = new System.Drawing.Point(93, 153);
+            this.cb_TenH.Name = "cb_TenH";
+            this.cb_TenH.Size = new System.Drawing.Size(265, 24);
+            this.cb_TenH.TabIndex = 11;
+            this.cb_TenH.SelectedIndexChanged += new System.EventHandler(this.cb_TenH_SelectedIndexChanged);
             // 
-            // numericUpDown1
+            // nUD_SoL
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(93, 228);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(144, 22);
-            this.numericUpDown1.TabIndex = 12;
+            this.nUD_SoL.Location = new System.Drawing.Point(93, 228);
+            this.nUD_SoL.Name = "nUD_SoL";
+            this.nUD_SoL.Size = new System.Drawing.Size(144, 22);
+            this.nUD_SoL.TabIndex = 12;
             // 
             // dtg_ThongKe
             // 
@@ -303,12 +304,6 @@
             this.dtg_ThongKe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtg_ThongKe.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow;
             this.dtg_ThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_ThongKe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dtg_ThongKe.Location = new System.Drawing.Point(3, 0);
             this.dtg_ThongKe.Name = "dtg_ThongKe";
             this.dtg_ThongKe.ReadOnly = true;
@@ -316,41 +311,6 @@
             this.dtg_ThongKe.RowTemplate.Height = 24;
             this.dtg_ThongKe.Size = new System.Drawing.Size(444, 528);
             this.dtg_ThongKe.TabIndex = 0;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "STT";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Tên hàng";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Số lượng";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Đơn giá";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Thành tiền";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
             // 
             // Form_BanHang
             // 
@@ -369,7 +329,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nUD_SoL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ThongKe)).EndInit();
             this.ResumeLayout(false);
 
@@ -389,17 +349,12 @@
         private System.Windows.Forms.Label lb_SoL;
         private System.Windows.Forms.Label lb_TenH;
         private System.Windows.Forms.Label lb_TenK;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.TextBox tb_DonG;
+        private System.Windows.Forms.TextBox tb_TongT;
+        private System.Windows.Forms.TextBox tb_TenK;
+        private System.Windows.Forms.ComboBox cb_TenH;
+        private System.Windows.Forms.NumericUpDown nUD_SoL;
         private System.Windows.Forms.DataGridView dtg_ThongKe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
     }
 }
 
