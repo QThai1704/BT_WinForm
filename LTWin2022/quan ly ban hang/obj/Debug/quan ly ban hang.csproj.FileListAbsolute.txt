@@ -1,0 +1,11 @@
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\bin\Debug\quan ly ban hang.exe.config
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\bin\Debug\quan ly ban hang.exe
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\bin\Debug\quan ly ban hang.pdb
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.csproj.AssemblyReference.cache
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.csproj.SuggestedBindingRedirects.cache
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan_ly_ban_hang.Form1.resources
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan_ly_ban_hang.Properties.Resources.resources
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.csproj.GenerateResource.cache
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.csproj.CoreCompileInputs.cache
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.exe
+C:\Users\Meap\Documents\TLU-Sophomore2021_2022\LTWin\BaiTapWinform\quan ly ban hang\obj\Debug\quan ly ban hang.pdb

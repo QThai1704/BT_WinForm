@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.bt_ThanhToan = new System.Windows.Forms.Button();
@@ -46,6 +47,14 @@
             this.cb_TenH = new System.Windows.Forms.ComboBox();
             this.nUD_SoL = new System.Windows.Forms.NumericUpDown();
             this.dtg_ThongKe = new System.Windows.Forms.DataGridView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.đổiMàuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -54,6 +63,7 @@
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nUD_SoL)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ThongKe)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -151,7 +161,7 @@
             this.bt_Them.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Them.Location = new System.Drawing.Point(3, 114);
             this.bt_Them.Name = "bt_Them";
-            this.bt_Them.Size = new System.Drawing.Size(82, 68);
+            this.bt_Them.Size = new System.Drawing.Size(80, 68);
             this.bt_Them.TabIndex = 0;
             this.bt_Them.Text = ">>";
             this.bt_Them.UseVisualStyleBackColor = true;
@@ -163,10 +173,11 @@
             this.bt_Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Xoa.Location = new System.Drawing.Point(3, 262);
             this.bt_Xoa.Name = "bt_Xoa";
-            this.bt_Xoa.Size = new System.Drawing.Size(82, 68);
+            this.bt_Xoa.Size = new System.Drawing.Size(80, 68);
             this.bt_Xoa.TabIndex = 1;
             this.bt_Xoa.Text = "<<";
             this.bt_Xoa.UseVisualStyleBackColor = true;
+            this.bt_Xoa.Click += new System.EventHandler(this.bt_Xoa_Click);
             // 
             // bt_TaoHoaDon
             // 
@@ -302,15 +313,71 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dtg_ThongKe.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtg_ThongKe.BackgroundColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.dtg_ThongKe.BackgroundColor = System.Drawing.Color.LightYellow;
             this.dtg_ThongKe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtg_ThongKe.Location = new System.Drawing.Point(3, 0);
+            this.dtg_ThongKe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5});
+            this.dtg_ThongKe.Location = new System.Drawing.Point(0, 0);
             this.dtg_ThongKe.Name = "dtg_ThongKe";
             this.dtg_ThongKe.ReadOnly = true;
             this.dtg_ThongKe.RowHeadersWidth = 51;
             this.dtg_ThongKe.RowTemplate.Height = 24;
-            this.dtg_ThongKe.Size = new System.Drawing.Size(444, 528);
+            this.dtg_ThongKe.Size = new System.Drawing.Size(444, 525);
             this.dtg_ThongKe.TabIndex = 0;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.đổiMàuToolStripMenuItem});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(136, 28);
+            // 
+            // đổiMàuToolStripMenuItem
+            // 
+            this.đổiMàuToolStripMenuItem.Name = "đổiMàuToolStripMenuItem";
+            this.đổiMàuToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.đổiMàuToolStripMenuItem.Text = "Đổi màu";
+            this.đổiMàuToolStripMenuItem.Click += new System.EventHandler(this.đổiMàuToolStripMenuItem_Click);
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "STT";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Tên hàng";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Số lượng";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Đơn giá";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Thành tiền";
+            this.Column5.MinimumWidth = 6;
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
             // 
             // Form_BanHang
             // 
@@ -331,6 +398,7 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nUD_SoL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_ThongKe)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -354,7 +422,15 @@
         private System.Windows.Forms.TextBox tb_TenK;
         private System.Windows.Forms.ComboBox cb_TenH;
         private System.Windows.Forms.NumericUpDown nUD_SoL;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem đổiMàuToolStripMenuItem;
         private System.Windows.Forms.DataGridView dtg_ThongKe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }
 
