@@ -93,6 +93,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.ContextMenuStrip = this.contextMenuStrip1;
             this.tableLayoutPanel1.Controls.Add(this.bt_ThanhToan, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.bt_TaoHoaDon, 1, 0);
@@ -124,6 +125,7 @@
             // 
             this.bt_ThanhToan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_ThanhToan.ContextMenuStrip = this.contextMenuStrip1;
             this.bt_ThanhToan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_ThanhToan.Location = new System.Drawing.Point(93, 378);
             this.bt_ThanhToan.Name = "bt_ThanhToan";
@@ -158,6 +160,7 @@
             // bt_Them
             // 
             this.bt_Them.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_Them.ContextMenuStrip = this.contextMenuStrip1;
             this.bt_Them.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Them.Location = new System.Drawing.Point(3, 114);
             this.bt_Them.Name = "bt_Them";
@@ -170,6 +173,7 @@
             // bt_Xoa
             // 
             this.bt_Xoa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_Xoa.ContextMenuStrip = this.contextMenuStrip1;
             this.bt_Xoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_Xoa.Location = new System.Drawing.Point(3, 262);
             this.bt_Xoa.Name = "bt_Xoa";
@@ -183,6 +187,7 @@
             // 
             this.bt_TaoHoaDon.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.bt_TaoHoaDon.ContextMenuStrip = this.contextMenuStrip1;
             this.bt_TaoHoaDon.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_TaoHoaDon.Location = new System.Drawing.Point(93, 3);
             this.bt_TaoHoaDon.Name = "bt_TaoHoaDon";
@@ -321,6 +326,7 @@
             this.Column3,
             this.Column4,
             this.Column5});
+            this.dtg_ThongKe.ContextMenuStrip = this.contextMenuStrip1;
             this.dtg_ThongKe.Location = new System.Drawing.Point(0, 0);
             this.dtg_ThongKe.Name = "dtg_ThongKe";
             this.dtg_ThongKe.ReadOnly = true;
@@ -340,7 +346,7 @@
             // đổiMàuToolStripMenuItem
             // 
             this.đổiMàuToolStripMenuItem.Name = "đổiMàuToolStripMenuItem";
-            this.đổiMàuToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.đổiMàuToolStripMenuItem.Size = new System.Drawing.Size(135, 24);
             this.đổiMàuToolStripMenuItem.Text = "Đổi màu";
             this.đổiMàuToolStripMenuItem.Click += new System.EventHandler(this.đổiMàuToolStripMenuItem_Click);
             // 
