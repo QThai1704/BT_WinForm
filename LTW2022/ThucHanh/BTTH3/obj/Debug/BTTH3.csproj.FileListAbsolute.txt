@@ -17,3 +17,6 @@ D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\obj\Debug\BTTH3.csproj.Generate
 D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\obj\Debug\BTTH3.csproj.CoreCompileInputs.cache
 D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\obj\Debug\BTTH3.exe
 D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\obj\Debug\BTTH3.pdb
+D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\bin\Debug\BTTH3.exe.config
+D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\bin\Debug\BTTH3.exe
+D:\LTWin_62TH5\BT_WinForm\LTW2022\ThucHanh\BTTH3\bin\Debug\BTTH3.pdb

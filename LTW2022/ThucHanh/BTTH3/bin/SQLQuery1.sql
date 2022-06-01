@@ -1,22 +1,26 @@
 ﻿create database THQLBanHang;
-create table Donhang( 
+create table Hang( 
 	MaHang varchar(10) not null primary key,
 	TenHang nvarchar(100),
 	DonGia int
 );
+drop table Hang;
 
-drop table Donhang;
-create table ThanhToan(
+create table DonHang(
 	STT varchar(1000),
 	TenHang nvarchar(100),
 	SoLuong int,
 	DonGia int,
 	ThanhTien int,
 );
-drop table ThanhToan;
-insert into Donhang values ('MH1', N'Trà sữa chân trâu đường đen', 25000);
-insert into Donhang values ('MH2', N'Hồng trà sữa', 30000);
-insert into Donhang values ('MH3', N'Trà xanh', 100000);
+drop table Donhang;
+insert into Hang values ('MH1', N'Trà sữa đường đen', 46000);
+insert into Hang values ('MH2', N'Hồng trà', 32000);
+insert into Hang values ('MH3', N'Trà xanh vải', 39000);
+insert into Hang values ('MH4', N'Cafe hạt dẻ', 46000);
+insert into Hang values ('MH5', N'Sữa chua uống vị nho', 39000);
+
+
 Select DonGia from Donhang where TenHang = N'Trà xanh';
-select *from Donhang;
-select *from ThanhToan;
+select *from Hang;
+select *from DonHang;
