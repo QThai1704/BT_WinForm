@@ -1,0 +1,14 @@
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\bin\Debug\QLSinhVien1_JSON.exe.config
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\bin\Debug\QLSinhVien1_JSON.exe
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\bin\Debug\QLSinhVien1_JSON.pdb
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.Form1.resources
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.exe
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.pdb
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\bin\Debug\Newtonsoft.Json.dll
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\bin\Debug\Newtonsoft.Json.xml
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien1_JSON\obj\Debug\QLSinhVien1_JSON.csproj.CopyComplete

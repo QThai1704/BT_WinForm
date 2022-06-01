@@ -1,0 +1,11 @@
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\bin\Debug\QLSinhVien2_SQLServer.exe.config
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\bin\Debug\QLSinhVien2_SQLServer.exe
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\bin\Debug\QLSinhVien2_SQLServer.pdb
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.Form1.resources
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.exe
+D:\LTWin_62TH5\LTW2022\BTTH04c1\QLSinhVien2_SQLServer\obj\Debug\QLSinhVien2_SQLServer.pdb

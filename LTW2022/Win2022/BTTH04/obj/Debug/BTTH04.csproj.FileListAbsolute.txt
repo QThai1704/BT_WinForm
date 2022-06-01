@@ -1,0 +1,11 @@
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\bin\Debug\BTTH04.exe.config
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\bin\Debug\BTTH04.exe
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\bin\Debug\BTTH04.pdb
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.Form1.resources
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.exe
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH04\obj\Debug\BTTH04.pdb

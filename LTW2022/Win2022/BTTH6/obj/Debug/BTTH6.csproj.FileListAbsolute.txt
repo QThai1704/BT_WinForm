@@ -1,0 +1,11 @@
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\bin\Debug\BTTH6.exe.config
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\bin\Debug\BTTH6.exe
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\bin\Debug\BTTH6.pdb
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.exe
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.pdb
+D:\LTWin_62TH5\LTW2022\Win2022\BTTH6\obj\Debug\BTTH6.Form_Chuoi.resources

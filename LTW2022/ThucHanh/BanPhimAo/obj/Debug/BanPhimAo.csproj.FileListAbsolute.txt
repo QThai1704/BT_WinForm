@@ -1,0 +1,11 @@
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\bin\Debug\BanPhimAo.exe.config
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\bin\Debug\BanPhimAo.exe
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\bin\Debug\BanPhimAo.pdb
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.Form1.resources
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.exe
+D:\LTWin_62TH5\LTW2022\ThucHanh\BanPhimAo\obj\Debug\BanPhimAo.pdb

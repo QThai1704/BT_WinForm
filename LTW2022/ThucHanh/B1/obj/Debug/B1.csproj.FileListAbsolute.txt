@@ -1,0 +1,11 @@
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\bin\Debug\B1.exe.config
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\bin\Debug\B1.exe
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\bin\Debug\B1.pdb
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.csproj.AssemblyReference.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.csproj.SuggestedBindingRedirects.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.Form1.resources
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.Properties.Resources.resources
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.csproj.GenerateResource.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.csproj.CoreCompileInputs.cache
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.exe
+D:\LTWin_62TH5\LTW2022\ThucHanh\B1\obj\Debug\B1.pdb
