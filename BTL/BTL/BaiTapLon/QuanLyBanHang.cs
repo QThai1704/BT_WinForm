@@ -64,6 +64,12 @@ namespace BaiTapLon
             Form_KhoHang fKH = new Form_KhoHang();
             fKH.ShowDialog();
         }
+
+        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_QLNhanVien fNV = new Form_QLNhanVien();
+            fNV.ShowDialog();
+        }
     }
     
 }

@@ -37,11 +37,21 @@ create table NhanVien (
 	[Tên nhân viên] nvarchar(100),
 	[Số điện thoại] varchar(10),
 	[Địa chỉ] nvarchar(100),
-	[Ca làm] varchar,
+	[Chức vụ] nvarchar,
 	[Số giờ làm] int,
 	[Tiền lương] int,
 );
 select *from NhanVien;
+create table ChucVu (
+	[Mã chức vụ] varchar(8) primary key,
+	[Tên chức vụ] nvarchar(100),
+	[Lương giờ] int
+);
+select *from ChucVu;
+insert into ChucVu values ('CV1', N'Quản lý', 22000);
+insert into ChucVu values ('CV2', N'Phục vụ', 18000);
+insert into ChucVu values ('CV3', N'Bảo vệ', 15000);
+insert into ChucVu values ('CV4', N'Lao công', 15000);
 
 drop table TaiKhoan;
 drop table KhoHang;

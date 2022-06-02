@@ -63,6 +63,16 @@ namespace BaiTapLon.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _34111331981_80664f28e0_o {
+            get {
+                object obj = ResourceManager.GetObject("34111331981_80664f28e0_o", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap image1_ing {
             get {
                 object obj = ResourceManager.GetObject("image1.ing", resourceCulture);

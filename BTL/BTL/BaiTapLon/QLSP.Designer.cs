@@ -240,6 +240,7 @@
             this.dt_NgayBan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dt_NgayBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dt_NgayBan.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dt_NgayBan.Location = new System.Drawing.Point(138, 200);
             this.dt_NgayBan.Margin = new System.Windows.Forms.Padding(4);
             this.dt_NgayBan.Name = "dt_NgayBan";
