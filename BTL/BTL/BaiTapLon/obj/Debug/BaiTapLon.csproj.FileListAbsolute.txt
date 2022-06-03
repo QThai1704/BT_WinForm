@@ -23,7 +23,6 @@ D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Form_HangCoSan.r
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Form_HangOrder.resources
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Form_KhoHang.resources
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Properties.Resources.resources
-D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.form_QLNhanVien.resources
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Form_QLSP.resources
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.form_QuanLyBanHang.resources
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.csproj.GenerateResource.cache
@@ -33,3 +32,4 @@ D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.pdb
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\bin\Debug\BaiTapLon.exe.config
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\bin\Debug\BaiTapLon.exe
 D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\bin\Debug\BaiTapLon.pdb
+D:\LTWin_62TH5\BT_WinForm\BTL\BTL\BaiTapLon\obj\Debug\BaiTapLon.Form_QLKhachHang.resources
